@@ -1,0 +1,28 @@
+/* 
+    Created on : Jan 26, 2018, 10:13:19 PM
+    Author     : ahmedhelal
+*/
+
+#board
+{
+    border: 5px solid black;/*border for the board*/
+    margin:0 auto;/*to be in center*/
+    display: table;/*to be like table*/
+    width:709px;/* almost max board width to be in the page*/
+    height: 600px;/* almost max board height to be in the page*/
+}
+.cell
+{   
+    display: table-cell;/*to be like table*/
+    border: 1px solid black;/*to make border for each cell*/
+}
+
+.row
+{
+    display: table-row;/*to be like table*/
+}
+.options
+{
+    padding-top: 5px;/*to make the option below the board*/
+    text-align:center;/*to be in center*/
+}

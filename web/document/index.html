@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+    Created on : Jan 26, 2018, 10:13:19 PM
+    Author     : ahmedhelal
+-->
+<html>
+    <head>
+        <title>Magical Tiles</title>
+        <link rel="stylesheet" href="../css/mycss.css"/>
+    </head>
+    <body>
+
+        <div id="board">
+            <!--<div class="cell"/>here is the cell</div>-->
+        </div>
+
+        <div class ="options" >
+            <button id="start">Start</button>
+            <button id="next">Next</button>
+            <button id="previous" disabled="true">Previous</button>
+            <button id="reset">Reset</button>	
+            <select id="delay">
+                <option value="100">100ms</option>
+                <option value="200">200ms</option>
+                <option value="500">500ms</option>	
+                <option value="1000">1000ms</option>			
+            </select>
+            <select id="boardsize">
+                <option value="20">20*20</option>
+                <option value="50">50*50</option>
+                <option value="100">100*100</option>		
+            </select>
+        </div>
+        <!-- 
+        include jquery
+        this include must be first as i'm going to use some of the code in thew next include
+        -->
+        <script src="../scripts/jquery-3.1.1.min.js"></script>
+        <!--  my script -->
+        <script src="../scripts/myproject.js"></script>
+    </body>
+</html>
